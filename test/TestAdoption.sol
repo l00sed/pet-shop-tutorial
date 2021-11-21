@@ -1,4 +1,4 @@
-pragma solidity ^0.5;
+pragma solidity ^0.5.0;
 
 import "truffle/Assert.sol";
 import "truffle/DeployedAddresses.sol";
@@ -35,4 +35,5 @@ contract TestAdoption {
 
   // The expected owner of adopted pet is this contract
   address expectedAdopter = address(this);
+
 }
